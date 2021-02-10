@@ -1,0 +1,118 @@
+/* =============== GLOBAL ================== */
+/* ========================================= */
+
+a {
+  text-decoration: none;
+  color: #8f8f8f;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* ====================================== */
+/* =============== Nav ================== */
+
+.navbar {
+  background-color: #212529;
+}
+
+.nav-fried {
+  color: #8f8f8f;
+}
+
+.nav-fried:hover {
+  color: #fff;
+}
+
+.me-auto {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ====================================== */
+/* ============= Section1 =============== */
+
+/* ----- Title and Text ----- */
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 396px;
+  position: relative;
+  z-index: 1;
+}
+.talla {
+  height: 510px;
+}
+
+.fw-h1 {
+  color: #212529;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 67px;
+}
+
+/* ----- Cel Phone ----- */
+
+.cel-product {
+  background-color: #333;
+  border-radius: 21px;
+  bottom: -30%;
+  height: 540px;
+  position: absolute;
+  right: 10%;
+  transform: rotate(30deg);
+  width: 320px;
+}
+
+.cel-product::before {
+  background-color: #ffffff1a;
+  border-radius: 5px;
+  bottom: -10%;
+  content: "";
+  height: 540px;
+  left: 12px;
+  position: absolute;
+  width: 296px;
+}
+
+.cel-product-2 {
+  background-color: #e5e5e5;
+  bottom: 0;
+  left: 5%;
+  right: auto;
+  top: -28%;
+}
+.cel-product-2::before {
+  background-color: #ffffff1a;
+  bottom: 0;
+  left: 4%;
+  right: auto;
+  top: -8%;
+}
+
+/* ====================================== */
+/* ======== Section2 (Cards) ============ */
+
+.card {
+  background-color: #343a40;
+}
+
+.cell-card {
+  border-radius: 21px 21px 0 0;
+  height: 300px;
+  max-width: 65%;
+}
+
+.text-space {
+  padding: 84px 0 22px 0;
+}
+
+/* ====================================== */
+/* ============== Footer ================ */
+
+.egg-footer {
+  font-size: 22px;
+}
